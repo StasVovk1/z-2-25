@@ -23,7 +23,6 @@
 
     function arraysMerging ($firstArray, $secondArray, $positionInFirstArray = null){
         $array = [];
-        $count =  + counts($secondArray) - 1;
         if ($positionInFirstArray){
             for ($i = 0; $i < counts($firstArray); $i++){
                 if ($i != $positionInFirstArray){
